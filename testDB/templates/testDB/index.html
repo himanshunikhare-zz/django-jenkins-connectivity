@@ -1,0 +1,16 @@
+<h3>Container ID: {{ hostname }}</h3>
+
+{% if title_list %}
+    <ol>
+    {% for title in title_list %}
+        <li> {{ title.title }}</li>
+    {% endfor %}
+    </ol>
+{% else %}
+    <p> Nothing is available 2</p>
+{% endif %}
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">Submit</button>
+</form>

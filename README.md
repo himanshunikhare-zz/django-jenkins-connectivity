@@ -1,4 +1,4 @@
-# Docker Django Sample App
+# Docker Django Connectivity
 
 A simple Django Application build over Docker to test how exactly docker swarm deals with database transactions.
 

@@ -1,6 +1,6 @@
 # Docker Django Connectivity
 
-A simple Django Application build over Docker to test connectivity between docker and jenkins
+A simple Django Application build over Docker to test connectivity between Docker and Jenkins
 
 The application uses PostgreSQL and Python3 image from docker hub and has a very simple interface to show a list of elements and to store something in DB.
 
